@@ -54,7 +54,7 @@ $detail_user_no = sel_detail_profile($param);
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/<?= $url ?>" allowfullscreen></iframe>
                     </div>
                     <div class="box6">
-                        <?= $item["food_ctnt"] ?>
+                        <pre><?= $item["food_ctnt"] ?></pre>
                     </div>
                     <div class="box7">
                         <?= $item['created_at'] ?>

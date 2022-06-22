@@ -33,23 +33,13 @@ $item = sel_recipe($param);
                 <input type="hidden" name="food_no" value="<?= $food_no ?>" readonly>
                 <div>
                     <label>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <img id="preview" class='food_img' src="/project/img/board/<?= $item['food_img'] ?>"style="cursor:pointer">
-=======
-                        <img class='food_img' src="/project/img/board/<?= $item['food_img'] ?>" width="160" height="160" style="cursor:pointer">
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
-=======
-                        <img class='food_img' src="/project/img/board/<?= $item['food_img'] ?>" width="160" height="160" style="cursor:pointer">
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
                         <div class="hidden"><input onchange="readURL(this);" type="file" name="img" accept="image/*"></div>
                     </label>
                 </div>
 
                 <div>
                     <div>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <label for="title">
                             <p>레시피 제목</p>
                         </label>
@@ -67,24 +57,6 @@ $item = sel_recipe($param);
                         <label for="category">
                             <p>카테고리</p>
                         </label>
-=======
-=======
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
-                        <label for="title">레시피 제목</label>
-                        <input type="text" name="title" id="title" value="<?= $item['food_title'] ?>">
-                    </div>
-
-                    <div>
-                        <label for="video">동영상 URL</label>
-                        <input type="url" name="video" id="video" value="<?= $item['food_url'] ?>">
-                    </div>
-
-                    <div>
-                        <label for="category">카테고리</label>
-<<<<<<< HEAD
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
-=======
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
                         <select name="category" id="category">
                             <?php
                             $param = [
@@ -106,33 +78,16 @@ $item = sel_recipe($param);
                         </select>
                     </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                     <div class="ctnt">
                         <label for="ctnt">
                             <p>내용</p>
                         </label>
-                        <textarea wrap="hard" name="ctnt" cols="48" rows="20"><?= $item['food_ctnt'] ?></textarea>
+                        <textarea wrap="hard" name="ctnt" cols="48" rows="20" style="white-space:pre-wrap;"><?= $item['food_ctnt'] ?></textarea>
                     </div>
 
                     <div>
                         <input class="submit" type="submit" value="등록">
                         <input class="submit" type="submit" value="취소" formaction="main.php">
-=======
-=======
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
-                    <div>
-                        <label for="ctnt">내용</label>
-                        <textarea name="ctnt" cols="30" rows="20"><?= $item['food_ctnt'] ?></textarea>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="등록">
-                        <input type="submit" value="취소" formaction="main.php">
-<<<<<<< HEAD
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
-=======
->>>>>>> 0afd3ce53dc33d1dd3cd5d56313727caa808088a
                     </div>
                 </div>
             </form>

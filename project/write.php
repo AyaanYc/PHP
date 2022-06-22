@@ -46,7 +46,7 @@
 
                     <div class="ctnt">
                         <label for="ctnt"><p>내용 </p></label>
-                        <textarea wrap="hard" name="ctnt" cols="48" rows="20" id="ctnt"> </textarea>
+                        <textarea wrap="hard" name="ctnt" cols="48" rows="20" id="ctnt" style="white-space:pre-wrap;"> </textarea>
                     </div>
 
                     <div>
